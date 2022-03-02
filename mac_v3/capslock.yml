@@ -1,6 +1,6 @@
 ---
-title: Capslock Enhancement
-url: https://vonng.com/capslock.json
+truetitle: Capslock Enhancement
+4rl: https://vonng.com/capslock.json
 version: 3.0.3
 maintainers: [ Vonng ]
 author: Vonng(rh@vonng.com)
@@ -1254,36 +1254,36 @@ rules:
 
 
       #==========================================================#
-      # ( e ) --> safari / finder / mail                         #
+      # ( e ) --> Chrome / Finder / mail                         #
       #==========================================================#
-      - description: 'command + e = finder'
+      - description: 'command + e = Finder'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a finder } ]
+        to: [ { shell_command: open -a Finder } ]
 
       - description: 'option + e = mail'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a mail } ]
 
-      - description: 'e = safari'
+      - description: 'e = Google Chrome'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Safari } ]
+        to: [ { shell_command: open -a 'Google Chrome' } ]
 
 
       #==========================================================#
-      # ( r ) --> iterm / preview / terminal                     #
+      # ( r ) --> iterm / Roam Research / Preview                     #
       #==========================================================#
-      - description: 'command + r = preview'
+      - description: 'command + r = Roam Research'
         type: basic
         from: { key_code: r, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Preview } ]
+        to: [ { shell_command: open -a 'Roam Research' } ]
 
-      - description: 'option + r = terminal'
+      - description: 'option + r = Preview'
         type: basic
         from: { key_code: r, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a terminal } ]
+        to: [ { shell_command: open -a Preview } ]
 
       - description: 'r = iTerm2'
         type: basic
@@ -1291,40 +1291,40 @@ rules:
         to: [ { shell_command: open -a iTerm } ]
 
       #==========================================================#
-      # ( t ) --> vscode / typora / notes                        #
+      # ( t ) --> Sublime Text / Typora / Notes                        #
       #==========================================================#
-      - description: 'command + t = typora'
+      - description: 'command + t = Typora'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Typora } ]
 
-      - description: 'option + t = notes'
+      - description: 'option + t = Notes'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a notes } ]
+        to: [ { shell_command: open -a Notes } ]
 
-      - description: 't = vscode'
+      - description: 't = Sublime Text'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Visual Studio Code' } ]
+        to: [ { shell_command: open -a 'Sublime Text' } ]
 
       #==========================================================#
-      # ( y ) --> siri / karabiner / amphetamine                 #
+      # ( y ) --> Wecom / WeChat / Karabiner-Elements                 #
       #==========================================================#
-      - description: 'command + y = karabiner'
+      - description: 'command + y = WeChat'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Karabiner-Elements } ]
+        to: [ { shell_command: open -a 'WeChat' } ]
 
-      - description: 'option + y = amphetamine'
+      - description: 'option + y = Karabiner-Elements'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a amphetamine } ]
+        to: [ { shell_command: open -a Karabiner-Elements } ]
 
-      - description: 'y = Siri'
+      - description: 'y = Wecom'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Siri } ]
+        to: [ { shell_command: open -a '企业微信' } ]
 
       #==========================================================#
       # ( f ) --> alfred 4 / Dash / Dictionary                   #
@@ -1345,7 +1345,7 @@ rules:
         to: [ { shell_command: open -a 'Alfred 4' } ]
 
       #==========================================================#
-      # ( g ) --> idea / chrome / calender                       #
+      # ( g ) --> Marta / chrome / calender                       #
       #==========================================================#
       - description: 'command + g = Chrome'
         type: basic
@@ -1357,10 +1357,10 @@ rules:
         from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Calendar } ]
 
-      - description: 'g = Intellij IDEA'
+      - description: 'g = Marta'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'IntelliJ IDEA' } ]
+        to: [ { shell_command: open -a Marta } ]
 
 
 

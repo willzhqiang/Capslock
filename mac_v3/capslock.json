@@ -1,6 +1,6 @@
 {
-  "title": "Capslock Enhancement",
-  "url": "https://vonng.com/capslock.json",
+  "truetitle": "Capslock Enhancement",
+  "4rl": "https://vonng.com/capslock.json",
   "version": "3.0.3",
   "maintainers": [
     "Vonng"
@@ -4777,7 +4777,7 @@
       "description": "Hyper Application",
       "manipulators": [
         {
-          "description": "command + e = finder",
+          "description": "command + e = Finder",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4793,7 +4793,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a finder"
+              "shell_command": "open -a Finder"
             }
           ]
         },
@@ -4819,7 +4819,7 @@
           ]
         },
         {
-          "description": "e = safari",
+          "description": "e = Google Chrome",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,12 +4834,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a 'Google Chrome'"
             }
           ]
         },
         {
-          "description": "command + r = preview",
+          "description": "command + r = Roam Research",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4855,12 +4855,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Preview"
+              "shell_command": "open -a 'Roam Research'"
             }
           ]
         },
         {
-          "description": "option + r = terminal",
+          "description": "option + r = Preview",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4876,7 +4876,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a terminal"
+              "shell_command": "open -a Preview"
             }
           ]
         },
@@ -4901,7 +4901,7 @@
           ]
         },
         {
-          "description": "command + t = typora",
+          "description": "command + t = Typora",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4922,7 +4922,7 @@
           ]
         },
         {
-          "description": "option + t = notes",
+          "description": "option + t = Notes",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4938,12 +4938,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a notes"
+              "shell_command": "open -a Notes"
             }
           ]
         },
         {
-          "description": "t = vscode",
+          "description": "t = Sublime Text",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4958,12 +4958,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Visual Studio Code'"
+              "shell_command": "open -a 'Sublime Text'"
             }
           ]
         },
         {
-          "description": "command + y = karabiner",
+          "description": "command + y = WeChat",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -4979,12 +4979,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Karabiner-Elements"
+              "shell_command": "open -a 'WeChat'"
             }
           ]
         },
         {
-          "description": "option + y = amphetamine",
+          "description": "option + y = Karabiner-Elements",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -5000,12 +5000,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a amphetamine"
+              "shell_command": "open -a Karabiner-Elements"
             }
           ]
         },
         {
-          "description": "y = Siri",
+          "description": "y = Wecom",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -5020,7 +5020,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Siri"
+              "shell_command": "open -a '企业微信'"
             }
           ]
         },
