@@ -112,9 +112,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>⌫</kbd>    |     del file     |     purge file     |                    |
 
 
-### Mousekey
-
-
+### Mousekey(Disabled)
 
 * Turn **Keypad** into a fully funcional 🖱️ **mouse**.
 * Numbers maps to 8 direction 🖱️ **mouse move**. Hold <kbd>⌥</kbd> Option to ⏬ **slow down**, hold <kbd>⌘</kbd> Command  to ⏫ **speed up**.
@@ -128,8 +126,6 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |  <kbd>1</kbd>🖱️↙️  |  <kbd>2</kbd> 🖱️⬇️  | <kbd>3</kbd> 🖱️↘️ |         |
 | <kbd>0</kbd> 🖱️L |        | <kbd>.</kbd> 🖱️M  | <kbd>⌤</kbd> 🖱️R  |
 
-
-
 ### Window Control
 
 
@@ -141,9 +137,9 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 | Key\Mod |      <kbd>✱</kbd>      |       <kbd>⌘</kbd>       |       <kbd>⌥</kbd>        |       <kbd>⌃</kbd>       |     <kbd>⇧</kbd>      |
 | :-----: | :---------: | :-----------: | :------------: | :-----------: | :--------: |
 |    <kbd>⇥</kbd>    |  next app   |   prev app    | switch desktop |               | switch tab |
-|    <kbd>Q</kbd>    |  close app  |   close app   |                |  Lock Screen  |   Logout   |
+|    <kbd>Q</kbd>    |  close app  |   Force close app   |                |  Lock Screen  |   Logout   |
 |    <kbd>W</kbd>    |  close tab  | close all win |                | Display Sleep |   Sleep    |
-|    <kbd>A</kbd>    | **win app** |  expose all   |  show desktop  |   LaunchPad   |            |
+|    <kbd>A</kbd>    | **Sublime Text for Editing** |  expose all   |  show desktop  |   LaunchPad   |            |
 |    <kbd>S</kbd>    |  next tab   |   prev tab    |    next win    |   prev win    |            |
 
 
@@ -157,20 +153,19 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
+| <kbd>A</kbd> | Sublime Text |  |  |
 |    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
 |    <kbd>R</kbd>    |       iTerm2       |  Roam Research  | Preview |
-|    <kbd>T</kbd>    | Sublime Text |  Typora   |    Note     |
+|    <kbd>T</kbd>    | TickTick |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
 |    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
 |    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
 
 
 
-### Terminal Control
+### Terminal Control(Disabled)
 
-
-
-<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending singals and IDE commands. (green area)
+<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending singals and IDE commands. (green area).  
 
 | Key\Mod |                         <kbd>✱</kbd>                          |          <kbd>⌘</kbd>           |
 | :-----: | :------------------------------------------------: | :------------------: |
@@ -183,9 +178,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 
 
-### Clipboard
-
-
+### Clipboard(Disabled)
 
 Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used as **(text) clipboard**. Hold <kbd>⌘</kbd> to **copy**, and press to **paste**. (purple area)
 
@@ -197,7 +190,7 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |    <kbd>0</kbd>    | Paste from clip 0 | Copy to clip 10 |
 
 
-### Shifter
+### Shifter(Disabled)
 
 
 * Trivial transformation for misc characters. (orange area)

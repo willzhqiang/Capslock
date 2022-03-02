@@ -1,6 +1,6 @@
 ---
-truetitle: Capslock Enhancement
-4rl: https://vonng.com/capslock.json
+title: Capslock Enhancement
+url: https://vonng.com/capslock.json
 version: 3.0.3
 maintainers: [ Vonng ]
 author: Vonng(rh@vonng.com)
@@ -1254,6 +1254,14 @@ rules:
 
 
       #==========================================================#
+      # ( a ) --> Sublime Text                                   #
+      #==========================================================#
+      - description: 'a = Sublime Text'
+        type: basic
+        from: { key_code: a, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+        to: [ { shell_command: open -a 'Sublime Text' } ]
+
+      #==========================================================#
       # ( e ) --> Chrome / Finder / mail                         #
       #==========================================================#
       - description: 'command + e = Finder'
@@ -1291,7 +1299,7 @@ rules:
         to: [ { shell_command: open -a iTerm } ]
 
       #==========================================================#
-      # ( t ) --> Sublime Text / Typora / Notes                        #
+      # ( t ) --> TickTick / Typora / Notes                        #
       #==========================================================#
       - description: 'command + t = Typora'
         type: basic
@@ -1303,10 +1311,10 @@ rules:
         from: { key_code: t, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Notes } ]
 
-      - description: 't = Sublime Text'
+      - description: 't = TickTick'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Sublime Text' } ]
+        to: [ { shell_command: open -a 'TickTick' } ]
 
       #==========================================================#
       # ( y ) --> Wecom / WeChat / Karabiner-Elements                 #
@@ -1345,22 +1353,22 @@ rules:
         to: [ { shell_command: open -a 'Alfred 4' } ]
 
       #==========================================================#
-      # ( g ) --> Marta / chrome / calender                       #
+      # ( g ) --> Craft / Skim / calender                       #
       #==========================================================#
-      - description: 'command + g = Chrome'
+      - description: 'command + g = Skim'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Google Chrome' } ]
+        to: [ { shell_command: open -a 'Skim' } ]
 
       - description: 'option + g = Calender'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Calendar } ]
 
-      - description: 'g = Marta'
+      - description: 'g = Craft'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Marta } ]
+        to: [ { shell_command: open -a Craft } ]
 
 
 

@@ -1,6 +1,6 @@
 {
-  "truetitle": "Capslock Enhancement",
-  "4rl": "https://vonng.com/capslock.json",
+  "title": "Capslock Enhancement",
+  "url": "https://vonng.com/capslock.json",
   "version": "3.0.3",
   "maintainers": [
     "Vonng"
@@ -4777,6 +4777,26 @@
       "description": "Hyper Application",
       "manipulators": [
         {
+          "description": "a = Sublime Text",
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Sublime Text'"
+            }
+          ]
+        },
+        {
           "description": "command + e = Finder",
           "type": "basic",
           "from": {
@@ -4943,7 +4963,7 @@
           ]
         },
         {
-          "description": "t = Sublime Text",
+          "description": "t = TickTick",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4958,7 +4978,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Sublime Text'"
+              "shell_command": "open -a 'TickTick'"
             }
           ]
         },
@@ -5087,7 +5107,7 @@
           ]
         },
         {
-          "description": "command + g = Chrome",
+          "description": "command + g = Skim",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5103,7 +5123,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Google Chrome'"
+              "shell_command": "open -a 'Skim'"
             }
           ]
         },
@@ -5129,7 +5149,7 @@
           ]
         },
         {
-          "description": "g = Intellij IDEA",
+          "description": "g = Craft",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5144,7 +5164,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'IntelliJ IDEA'"
+              "shell_command": "open -a Craft"
             }
           ]
         }
