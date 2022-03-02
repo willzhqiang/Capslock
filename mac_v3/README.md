@@ -159,7 +159,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>T</kbd>    | TickTick |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
 |    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
-|    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
+|    <kbd>G</kbd>    | Craft |  Skim  |  Calender   |
 
 
 
