@@ -4797,7 +4797,7 @@
           ]
         },
         {
-          "description": "command + e = Finder",
+          "description": "command + e = Notes",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4813,7 +4813,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Finder"
+              "shell_command": "open -a Notes"
             }
           ]
         },
@@ -5045,7 +5045,7 @@
           ]
         },
         {
-          "description": "command + f = Dash",
+          "description": "command + f = Finder",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5061,7 +5061,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Dash"
+              "shell_command": "open -a Finder"
             }
           ]
         },

@@ -146,14 +146,13 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 ### App Shortcuts
 
-
-
 * <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>F</kbd> <kbd>G</kbd> are used as application shortcuts. (yellow area)
 * Popular apps and dev tools are registed to 3 default planes: <kbd>✱</kbd>/<kbd>⌘</kbd>/<kbd>⌥</kbd>. Assign these shortcuts according to your own needs.
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
 | <kbd>A</kbd> | Sublime Text |  |  |
+| <kbd>C</kbd> | Craft | | |
 |    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
 |    <kbd>R</kbd>    |       iTerm2       |  Roam Research  | Preview |
 |    <kbd>T</kbd>    | TickTick |  Typora   |    Note     |
@@ -272,3 +271,4 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |  🖱️R   | Mouse Right Click (Button2)  |  🖱️F   | Mouse Forward (Button5)  |
 |  🖱️M   | Mouse Middle Click (Button3) |   🖲️   |       Mouse Wheel        |
 
+##### 
