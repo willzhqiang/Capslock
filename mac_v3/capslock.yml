@@ -1368,7 +1368,7 @@ rules:
         to: [ { shell_command: open -a 'Alfred 4' } ]
 
       #==========================================================#
-      # ( g ) --> Craft / Skim / calender                       #
+      # ( g ) --> Marta / Skim / calender                       #
       #==========================================================#
       - description: 'command + g = Skim'
         type: basic
