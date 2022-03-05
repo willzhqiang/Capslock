@@ -1202,20 +1202,20 @@ rules:
       #==========================================================#
       # ( a ) --> window management                              #
       #==========================================================#
-      - description: 'control + a = launchpad'
-        type: basic
-        from: { key_code: a, modifiers: { mandatory: [ left_control,  right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Launchpad' } ]
+      # - description: 'control + a = launchpad'
+      #   type: basic
+      #   from: { key_code: a, modifiers: { mandatory: [ left_control,  right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a 'Launchpad' } ]
 
-      - description: 'option + a = show desktop'
-        type: basic
-        from: { key_code: a, modifiers: { mandatory: [ left_option,  right_command,right_control,right_shift,right_option ] } }
-        to: [ { key_code: f11 } ]
+      # - description: 'option + a = show desktop'
+      #   type: basic
+      #   from: { key_code: a, modifiers: { mandatory: [ left_option,  right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { key_code: f11 } ]
 
-      - description: 'command + a = expose all'
-        type: basic
-        from: { key_code: a, modifiers: { mandatory: [ left_command,  right_command,right_control,right_shift,right_option ] } }
-        to: [ { key_code: up_arrow , modifiers: [ left_control ] } ]
+      # - description: 'command + a = expose all'
+      #   type: basic
+      #   from: { key_code: a, modifiers: { mandatory: [ left_command,  right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { key_code: up_arrow , modifiers: [ left_control ] } ]
 
       # - description: 'a = window resize meta key' (passing via ⇧⌃⌥⌘A)
 
@@ -1254,8 +1254,23 @@ rules:
 
 
       #==========================================================#
-      # ( a ) --> Sublime Text                                   #
+      # ( a ) --> Sublime Text / Evernote                                   #
       #==========================================================#
+      # - description: 'control + a = launchpad'
+      #   type: basic
+      #   from: { key_code: a, modifiers: { mandatory: [ left_control,  right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a 'Launchpad' } ]
+
+      # - description: 'option + a = show desktop'
+      #   type: basic
+      #   from: { key_code: a, modifiers: { mandatory: [ left_option,  right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { key_code: f11 } ]
+
+      - description: 'command + a = Evernote'
+        type: basic
+        from: { key_code: a, modifiers: { mandatory: [ left_command,  right_command,right_control,right_shift,right_option ] } }
+        to: [ { shell_command: open -a '印象笔记' } ]
+     
       - description: 'a = Sublime Text'
         type: basic
         from: { key_code: a, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
@@ -1389,13 +1404,21 @@ rules:
         from: { key_code: d, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a 'DEVONthink 3' } ]
 
-      #==========================================================#
-      # ( c ) --> Craft / Skim / calender                       #
-      #==========================================================#
+       #==========================================================#
+       # ( c ) --> Craft                                          #
+       #==========================================================#
       - description: 'c = Craft'
         type: basic
         from: { key_code: c, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Craft } ]
+
+       #==========================================================#
+       # ( z ) --> Spark                                          #
+       #==========================================================#
+      - description: 'z = Spark'
+        type: basic
+        from: { key_code: z, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+        to: [ { shell_command: open -a Spark } ]
 
   ################################################################
   #                       Hyper Terminal                         #

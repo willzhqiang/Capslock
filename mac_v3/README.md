@@ -158,9 +158,8 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>T</kbd>    | TickTick |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
 |    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
-|    <kbd>G</kbd>    | Craft |  Skim  |  Calender   |
-
-
+|    <kbd>G</kbd>    | Marta |  Skim  |  Calender   |
+| <kbd>Z</kbd> | Spark |  |  |
 
 ### Terminal Control(Disabled)
 
@@ -208,11 +207,7 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |   <kbd>\\</kbd>   |  <kbd>⌘</kbd><kbd>/</kbd>  |          |      |
 
 
-
-
 ### Functional
-
-
 
 - Use F1,…F12 as standard functional keys, while hold **<kbd>✱</kbd> Hyper** to turn them back. (cyan area)
 - <kbd>⌘</kbd>Command  + F1 / F2 / F3 are used as desktop switcher. Enable shortcuts in system preference first:
@@ -247,10 +242,6 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |  PgUp <kbd>⇞</kbd>  |    <kbd>⇧</kbd><kbd>⌥</kbd> <kbd>volume_increment</kbd>    |      | Fine-Grained Volume Up               |
 |  PgDn <kbd>⇟</kbd>  |    <kbd>⇧</kbd><kbd>⌥</kbd> <kbd>volume_decrement</kbd>    |      | Fine-Grained Volume Down             |
 
-
-
-
-
 ## References
 
 ### Symbols
@@ -270,5 +261,3 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |  🖱️L   |  Mouse Left Click (Button1)  |  🖱️B   | Mouse Backward (Button4) |
 |  🖱️R   | Mouse Right Click (Button2)  |  🖱️F   | Mouse Forward (Button5)  |
 |  🖱️M   | Mouse Middle Click (Button3) |   🖲️   |       Mouse Wheel        |
-
-##### 
