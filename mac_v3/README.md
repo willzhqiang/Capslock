@@ -153,11 +153,11 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 | :-----: | :----------------: | :-------: | :---------: |
 | <kbd>A</kbd> | Sublime Text |  |  |
 | <kbd>C</kbd> | Craft | | |
-|    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
+|    <kbd>E</kbd>    |       Chrome       |  Finder   |         |
 |    <kbd>R</kbd>    |       iTerm2       |  Roam Research  | Preview |
 |    <kbd>T</kbd>    | TickTick |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
+|    <kbd>F</kbd>    |      Alfred 4      |       | Dictionary  |
 |    <kbd>G</kbd>    | Marta |  Skim  |  Calender   |
 | <kbd>Z</kbd> | Spark |  |  |
 
