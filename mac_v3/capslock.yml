@@ -1412,6 +1412,11 @@ rules:
         from: { key_code: c, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Craft } ]
 
+      - description: 'command + c = Visual Studio Code'
+        type: basic
+        from: { key_code: c, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+        to: [ { shell_command: open -a 'Visual Studio Code' } ]
+
        #==========================================================#
        # ( z ) --> Spark                                          #
        #==========================================================#
