@@ -40,7 +40,7 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 | :---------------------------: | :----: | :----------------------------------------------------------- |
 |        [Basic](#Basic)        |  Blue  | Press <kbd>⇪</kbd> Capslock  emit an  **<kbd>⎋</kbd> Escape**. Hold it enabling the **<kbd>✱</kbd> Hyper Modifier**. |
 |   [Navigation](#Navigation)   |  Pink  | Vim style navigation. Cursor move, text selection, switch desktop/window/tab, mouse move/wheel,etc... |
-|     [Deletion](#Deletion)     | Brown  | Maps `BNM,` to deletion operation to perform fast char/word/line deletion without hand move. |
+|     [Deletion](#Deletion)     | Brown  | Maps `NM,.` to deletion operation to perform fast char/word/line deletion without hand move. |
 |     [MouseKey](#MouseKey)     | Keypad | Maps keypad to fully functional mouse                        |
 |   [Window](#window-control)   | Azure  | Close app/win/tab, Switch app/win/tab/desktop, intergration with win-manager app such as Moom,Slate,Magnet |
 | [Application](#app-shortcuts) | Yellow | Shortcuts for launching or switching frequently used applications |
@@ -82,8 +82,6 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>I</kbd>    |   Home   | line head  |  end2head   |  prev win  |    hide     |  🖱️R  |   🖱️R   |  ⬆️   |  ⬆️⏫  |
 |    <kbd>O</kbd>    |   End    |  line end  |  head2end   |  next win  |  hide all   |  🖱️B  |   🖱️B   |  ⬇️   |  ⬇️⏫  |
 |    <kbd>P</kbd>    |   PgDn   | next page  |  next page  |   zoom+    |  Launchpad  |  🖱️F  |   🖱️F   |  ⬅️   |  ⬅️⏫  |
-
-
 
 #### Arrow Navigation
 
@@ -142,8 +140,6 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>A</kbd>    | **Sublime Text for Editing** |  expose all   |  show desktop  |   LaunchPad   |            |
 |    <kbd>S</kbd>    |  next tab   |   prev tab    |    next win    |   prev win    |            |
 
-
-
 ### App Shortcuts
 
 * <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>F</kbd> <kbd>G</kbd> are used as application shortcuts. (yellow area)
@@ -159,7 +155,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
 |    <kbd>F</kbd>    |      Alfred 4      | Finder | Dictionary  |
 |    <kbd>G</kbd>    | Marta |  Skim  |  Calender   |
-| <kbd>Z</kbd> | Spark |  |  |
+| <kbd>Z</kbd> | Spark | 1Password Mini Window(set in App) |  |
 
 ### Terminal Control(Disabled)
 
@@ -188,7 +184,7 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
 |    <kbd>0</kbd>    | Paste from clip 0 | Copy to clip 10 |
 
 
-### Shifter(Disabled)
+### Shifter
 
 
 * Trivial transformation for misc characters. (orange area)

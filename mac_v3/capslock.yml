@@ -1733,15 +1733,15 @@ rules:
       #==========================================================#
       # slash/backslash to comment
       #==========================================================#
-      - description: 'backslash \ = command + / (comment)'
-        type: basic
-        from: { key_code: backslash, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { key_code: slash , modifiers: [ left_command ] } ]
+      # - description: 'backslash \ = command + / (comment)'
+      #   type: basic
+      #   from: { key_code: backslash, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { key_code: slash , modifiers: [ left_command ] } ]
 
-      - description: 'slash / = command + / (comment)'
-        type: basic
-        from: { key_code: slash, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { key_code: slash , modifiers: [ left_command ] } ]
+      # - description: 'slash / = command + / (comment)'
+      #   type: basic
+      #   from: { key_code: slash, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { key_code: slash , modifiers: [ left_command ] } ]
 
 
       #==========================================================#
