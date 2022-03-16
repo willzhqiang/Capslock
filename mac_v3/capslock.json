@@ -5245,6 +5245,27 @@
               "shell_command": "open -a Spark"
             }
           ]
+        },
+        {
+          "description": "command + z = 1Password",
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a '1Password 7'"
+            }
+          ]
         }
       ]
     },

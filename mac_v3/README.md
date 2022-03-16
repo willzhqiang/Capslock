@@ -153,7 +153,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
 |    <kbd>F</kbd>    |      Alfred 4      | Finder | Dictionary  |
 |    <kbd>G</kbd>    | Marta |  Skim  |  Calender   |
-| <kbd>Z</kbd> | Spark | 1Password Mini Window(set in App) |  |
+| <kbd>Z</kbd> | Spark | 1Password |  |
 
 ### Terminal Control(Disabled)
 
