@@ -1,7 +1,5 @@
 # Capslock Enhancement (mac v3) 
 
-
-
 ### MacOS Installation
 
 
@@ -145,19 +143,20 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
-| <kbd>A</kbd> | Sublime Text |  |  |
-| <kbd>C</kbd> | Craft | | |
+| <kbd>A</kbd> | Sublime Text | Mission Control(⌃↑ or ✱F3) | Show Desktop(F11) |
+| <kbd>C</kbd> | Craft | Cubox | |
+|  <kbd>D</kbd>| DEVONthink 3 | Due | 1Password |
 |    <kbd>E</kbd>    |       Chrome       |  Notes  |         |
 |    <kbd>R</kbd>    |       iTerm2       |  Roam Research  | Preview |
 |    <kbd>T</kbd>    | TickTick |  Typora   |    Notes    |
 |    <kbd>Y</kbd>    |        Wecom        | WeChat | Karabiner-Elements |
-|    <kbd>F</kbd>    |      Alfred 4      | Finder | Dictionary  |
-|    <kbd>G</kbd>    | Marta |  Skim  |  Calender   |
-| <kbd>Z</kbd> | Spark | 1Password |  |
+|    <kbd>F</kbd>    | DEVONthink Search | Finder | Dictionary  |
+|    <kbd>G</kbd>    | Marta |  Keyboard Maestro  |  Calender   |
+| <kbd>Z</kbd> | Spark | 印象笔记 |  |
 
 ### Terminal Control(Disabled)
 
-<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending singals and IDE commands. (green area).  
+<kbd>D</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd>, <kbd>B</kbd> are used as terminal control keys. Sending singals and IDE commands. (green area).  I disabled them and used them in DEVONthink. Because I use DEVONthink frequently.
 
 | Key\Mod |                         <kbd>✱</kbd>                          |          <kbd>⌘</kbd>           |
 | :-----: | :------------------------------------------------: | :------------------: |
