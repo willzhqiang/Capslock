@@ -4609,6 +4609,72 @@
           ]
         },
         {
+          "description": "control + a = launchpad",
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Launchpad'"
+            }
+          ]
+        },
+        {
+          "description": "option + a = show desktop",
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f11"
+            }
+          ]
+        },
+        {
+          "description": "command + a = expose all",
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
           "description": "control + s = alter app-win rev",
           "type": "basic",
           "from": {
@@ -4711,27 +4777,6 @@
       "description": "Hyper Application",
       "manipulators": [
         {
-          "description": "command + a = Evernote",
-          "type": "basic",
-          "from": {
-            "key_code": "a",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a '印象笔记'"
-            }
-          ]
-        },
-        {
           "description": "a = Sublime Text",
           "type": "basic",
           "from": {
@@ -4752,7 +4797,7 @@
           ]
         },
         {
-          "description": "command + e = Notes",
+          "description": "command + e = Logseq",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4768,12 +4813,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Notes"
+              "shell_command": "open -a Logseq"
             }
           ]
         },
         {
-          "description": "option + e = mail",
+          "description": "option + e = Microsoft Edge",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4789,7 +4834,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a mail"
+              "shell_command": "open -a 'Microsoft Edge'"
             }
           ]
         },
@@ -4814,7 +4859,7 @@
           ]
         },
         {
-          "description": "command + r = Roam Research",
+          "description": "command + r = Logseq",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4830,12 +4875,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Roam Research'"
+              "shell_command": "open -a 'Logseq'"
             }
           ]
         },
         {
-          "description": "option + r = Preview",
+          "description": "option + r = Raindrop.io",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4851,12 +4896,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Preview"
+              "shell_command": "open -a '/Applications/Raindrop.io.app'"
             }
           ]
         },
         {
-          "description": "r = iTerm2",
+          "description": "r = iTerm",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4876,7 +4921,7 @@
           ]
         },
         {
-          "description": "command + t = Typora",
+          "description": "command + t = TickTick",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4892,12 +4937,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Typora"
+              "shell_command": "open -a TickTick"
             }
           ]
         },
         {
-          "description": "option + t = Notes",
+          "description": "option + t = Telegram",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4913,12 +4958,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Notes"
+              "shell_command": "open -a Telegram"
             }
           ]
         },
         {
-          "description": "t = TickTick",
+          "description": "t = Logseq",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4933,7 +4978,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'TickTick'"
+              "shell_command": "open -a 'Logseq'"
             }
           ]
         },
@@ -5104,7 +5149,7 @@
           ]
         },
         {
-          "description": "command + d = Due",
+          "description": "command + d = TickTick",
           "type": "basic",
           "from": {
             "key_code": "d",
@@ -5120,12 +5165,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Due"
+              "shell_command": "open -a TickTick"
             }
           ]
         },
         {
-          "description": "option + d = 1Password",
+          "description": "option + d = Due",
           "type": "basic",
           "from": {
             "key_code": "d",
@@ -5141,12 +5186,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a '1Password 7'"
+              "shell_command": "open -a 'Due'"
             }
           ]
         },
         {
-          "description": "d = DEVONthink 3",
+          "description": "d = Logseq",
           "type": "basic",
           "from": {
             "key_code": "d",
@@ -5161,7 +5206,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'DEVONthink 3'"
+              "shell_command": "open -a 'Logseq'"
             }
           ]
         },
@@ -5248,7 +5293,7 @@
           ]
         },
         {
-          "description": "command + z = Zotero",
+          "description": "command + z = Evernote",
           "type": "basic",
           "from": {
             "key_code": "z",
@@ -5264,7 +5309,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Zotero'"
+              "shell_command": "open -a '印象笔记'"
             }
           ]
         }
